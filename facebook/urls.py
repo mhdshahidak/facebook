@@ -19,6 +19,6 @@ from django.contrib.staticfiles.urls import static,staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ap/',include('facebookapp.urls')),
+    path('',include('facebookapp.urls')),
 ]
 urlpatterns += staticfiles_urlpatterns()
